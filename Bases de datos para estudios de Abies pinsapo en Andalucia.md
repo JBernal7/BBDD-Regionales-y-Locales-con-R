@@ -82,6 +82,7 @@ plot(Montes.Publicos[which(Montes.Publicos$Name=="MA-30037-AY"),1],
      main="Monte Pinar de Yunquera y Sierra Blanquilla",
      axes=TRUE)
 ```
+![image](https://user-images.githubusercontent.com/100314590/160256117-c3f1b48e-a843-4059-aba8-e051375e0109.png)
 
 
 Como se puede apreciar en el mapa, la ordenación se compuso por dos montes: Pinar de Yunquera y Sierra Blanquilla. El ejercicio, sin embargo, se va a centrar en la zona donde se encuentran las poblaciones de *Abies pinsapo*, que se localizan en Pinar de Yunquera por lo que se selecciona únicamente dicho territorio:
@@ -89,6 +90,7 @@ Como se puede apreciar en el mapa, la ordenación se compuso por dos montes: Pin
 Pinar.Yunquera<-MA.30037.AY[1,]
 plot(Pinar.Yunquera[,1], main="Monte Pinar de Yunquera", axes=TRUE)
 ```
+![image](https://user-images.githubusercontent.com/100314590/160256125-12494705-27ff-4498-b0e5-9064cfa5d57e.png)
 
 
 ##### 1.2. Ortofotos e imágenes
@@ -116,6 +118,8 @@ m.orto = leaflet(st_zm(Pinar.Yunquera)) %>%
     addPolygons()
 m.orto 
 ```
+![image](https://user-images.githubusercontent.com/100314590/160256164-e59260a9-947b-469c-8ed6-cb30629252ae.png)
+
 
 
 Cuando en la zona de trabajo no se disponen de imágenes u ortofografías servidas a través de wms, se puede visualizar el monte empleando alguna capa de la lista de proveedores. En este caso, como ejemplo, se ha seleccionado la imaginería mundial proporcinada por la empresa ESRI y que contiene imágenes satelitales y aéreas en todo el mundo. Los mapas incluyen imágenes TerraColor de 15 m para las escalas medias e imágenes de los satélites SPOT de 2.5 m para escalas mayores. En muchas partes del mundo se muestran imágenes submétricas de Maxar. También, en otras partes del mundo, la comunidad de usuarios de SIG ha contribuido con imágenes en diferentes resoluciones.
@@ -129,6 +133,7 @@ m.esri = leaflet(st_zm(Pinar.Yunquera)) %>%
 m.esri
 
 ```
+![image](https://user-images.githubusercontent.com/100314590/160256174-12839651-f4aa-430e-8011-d25ad58aecc0.png)
 
 
 #### 1.3. Otras fuentes cartográficas
@@ -177,7 +182,7 @@ Pinar.Yunquera.t<-st_transform(Pinar.Yunquera,crs=st_crs(MDT))
 plot(MDT, main="Modelo Digital del Terreno")
 plot(st_geometry(Pinar.Yunquera.t[,1]),add=TRUE)
 ```
-
+![image](https://user-images.githubusercontent.com/100314590/160256206-415d7781-1475-4a9c-b5ff-5f6082212cba.png)
 
 Emplear el modelo completo implica utilizar unas 60.000 hectáreas, lo que ralentiza los procesos en los que se vea involucrada dicha capa. Para agilizarlos, es recomendable recortar el modelo del terreno por la extensión que ocupa los límites del monte con el que se está trabajando.
 
@@ -187,6 +192,7 @@ plot(MDT.recorte)
 plot(st_geometry(Pinar.Yunquera.t[,1]),add=TRUE)
 ```
 
+![image](https://user-images.githubusercontent.com/100314590/160256214-403aff58-a56b-461b-8c33-19afc85aa840.png)
 
 Y finalmente, podemos visualizarlo sobre un mapa dinámico para orientarnos sobre el terreno.
 
@@ -199,6 +205,8 @@ m.MDT = leaflet(st_zm(Pinar.Yunquera)) %>%
   addRasterImage(MDT.recorte, project = TRUE)
 m.MDT
 ```
+![image](https://user-images.githubusercontent.com/100314590/160256246-504daae7-112a-4a79-93c9-5f399ff3a773.png)
+
 
 
 Y guardamos la capa del monte de Pinar de Yunquera para poder utilizarla en ejercicios posteriores.
