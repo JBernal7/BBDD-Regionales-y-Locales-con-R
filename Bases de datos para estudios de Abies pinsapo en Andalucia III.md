@@ -3,6 +3,8 @@
 Jessica Bernal
 14/04/22
 
+*Nota: Se adjunta html con resultados en la repo*
+
 ### 3. Estado sanitario del monte
 
 En partes anteriores se ha empleado una visión clásica de la ciencia de datos en aplicaciones forestales utilizando código abierto, R, que nos permite trabajar de manera rápida y eficiente en el uso de grandes conjuntos de datos. En esta sesión se propone construir lo que se conoce como Data Lake o "Lago de datos", un repositorio centralizado que contiene una gran cantidad de datos en bruto que se mantienen allí hasta que sea necesario. Es decir, el dato se puede guardar sin modificarlo o transformarlo. De hecho, los tipos de datos que permite van desde estructurados (modelo relacional tradicional), semi-estructurados (CSV, XML, JSON, etc.), datos no estructurados (correos electrónicos, PDFs, documentos) hasta datos binarios (como audios o videos).
