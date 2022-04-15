@@ -4,6 +4,7 @@ Jessica Bernal
 15/4/2022
 
 
+
 ### 4. Crecimiento de las especies
 
 Como es esperable, la información obtenida de parcelas medidas en un momento dado no incluye datos de la evolución de las variables dendrométricas y dasométricas de las masas forestales, por lo que con ella no es posible utilizar determinadas técnicas de ajuste estadístico para datos de crecimiento. A partir de los datos de un único inventario sólo es posible la elaboración de modelos estáticos, como son tablas de producción de selvicultura media observada, que reflejan únicamente un número limitado de evoluciones de la densidad, o los diagramas de manejo de la densidad. La realización de un segundo inventario permite disponer de datos reales de crecimiento, lo que posibilita el desarrollo de modelos dinámicos, más realistas que los estáticos.
@@ -609,3 +610,5 @@ legend("bottomright",
 ```
 ![image](https://user-images.githubusercontent.com/100314590/163586689-427f5217-c176-4249-8040-f9e27b973764.png)
 
+*Nota: Para esta parte no he podido generar el html de R Markdown por el siguiente error arrojado en el knitting. Queda pues pendiente (si encuentras la solución a dicho error, se agradece la comunicación :)*
+![image](https://user-images.githubusercontent.com/100314590/163589398-1c9f4f54-06a0-4926-8237-fada79359bd7.png)
