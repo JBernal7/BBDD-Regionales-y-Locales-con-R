@@ -1,6 +1,6 @@
 # Bases de Datos Regionales y Locales con R
 
-Este repositorio contiene el trabajo de análisis y estudio del monte público Pinar de Yunquera (código MA-30037-AY), que es un monte de unas 2.000 ha, de titularidad pública, perteneciente al Ayuntamiento de Yunquera. Este monte está localizado en el interior del **Parque Nacional Sierra de las Nieves** y contiene una variedad florística de incalculable valor.
+Este repositorio contiene un trabajo de análisis y estudio del monte público Pinar de Yunquera (código MA-30037-AY), que es un monte de unas 2.000 ha, de titularidad pública, perteneciente al Ayuntamiento de Yunquera. Este monte está localizado en el interior del **Parque Nacional Sierra de las Nieves** y contiene una variedad florística de incalculable valor.
 
 El repositorio se compone de archivos .md y html que documentan el trabajo de análisis y estudio que se ha llevado a cabo.
 
@@ -23,7 +23,7 @@ Para utilizar este repositorio, simplemente clone o descargue el repositorio a s
 Recuerde instalar las dependencias necesarias para ejecutar el código R, como se especifica en los archivos .md.
 
 ## Contribución
-Este repositorio está destinado a ser un registro de un proyecto personal realizado en el marco del Máster Oficial Geoforest. Sin embargo, si encuentras algún error o tienes alguna sugerencia de mejora, no dudes en abrir un issue.
+Este repositorio está destinado a ser un registro de un proyecto personal realizado en el marco del Máster Oficial [Geoforest](https://mastergeoforest.es/) . Sin embargo, si encuentras algún error o tienes alguna sugerencia de mejora, no dudes en abrir un issue.
 
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
 
