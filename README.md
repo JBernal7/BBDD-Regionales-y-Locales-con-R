@@ -26,6 +26,7 @@ Recuerde instalar las dependencias necesarias para ejecutar el código R, como s
 Este repositorio está destinado a ser un registro de las actividades realizadas en el marco del Máster Oficial [Geoforest](https://mastergeoforest.es/). Sin embargo, si encuentras algún error o tienes alguna sugerencia de mejora, no dudes en abrir un issue.
 
 ## Nota sobre la Procedencia del Material y Licencia
-A partir del 20 de octubre de 2023, Geoforest ha hecho público el material sobre el que se basa este repositorio. Para más información y para acceder a este material actualizado, por favor consulte el siguiente DOI: 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10026901.svg)](https://doi.org/10.5281/zenodo.10026901).
+A partir del 20 de octubre de 2023, Geoforest ha hecho público el material sobre el que se basa este repositorio. Para más información y para acceder a este material actualizado, por favor consulte el siguiente DOI:
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10026901.svg)](https://doi.org/10.5281/zenodo.10026901)
 
