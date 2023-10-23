@@ -23,7 +23,7 @@ Para utilizar este repositorio, simplemente clone o descargue el repositorio a s
 Recuerde instalar las dependencias necesarias para ejecutar el código R, como se especifica en los archivos .md.
 
 ## Contribución
-Este repositorio está destinado a ser un registro de un proyecto personal realizado en el marco del Máster Oficial [Geoforest](https://mastergeoforest.es/) . Sin embargo, si encuentras algún error o tienes alguna sugerencia de mejora, no dudes en abrir un issue.
+Este repositorio está destinado a ser un registro de las actividades realizas en el marco del Máster Oficial [Geoforest](https://mastergeoforest.es/) . Sin embargo, si encuentras algún error o tienes alguna sugerencia de mejora, no dudes en abrir un issue.
 
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
 
